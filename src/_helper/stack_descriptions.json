@@ -1,0 +1,57 @@
+{
+  "stack": [
+    {
+      "title": "TailwindCSS",
+      "description": "Component-based CSS framework. Not much opiniontinated, good for scaffolding and standardize design systems.",
+      "link": "https://codepen.io/run1992st/pen/ExPGyOB?editors=1000",
+      "logo":"tailwind"
+    },
+    {
+      "title": "VueJS",
+      "description": "Frontend framework, with medium-proficientcy in core module.(VUEX center-store framework , VueRouter core module for manage route, Vuetify Vue-based component Framework)",
+      "link": "https://codesandbox.io/s/vue-jwt-auth-3v4z1",
+      "logo":"vue"
+    },
+    {
+      "title": "D3js",
+      "description": "Data Visualization tools.",
+      "link": "https://codepen.io/run1992st/pen/vYLgJJG",
+      "logo":"d3"
+    },
+    {
+      "title": "Javascript",
+      "description": "Basic langauge implementation. ES6 promise, async await, object destructuring ETC.",
+      "link": "https://codesandbox.io/s/fcc-sudoku-puzzle-gr7zp",
+      "logo":"js"
+    },
+    {
+      "title": "MongoDB",
+      "description": "Basic CRUD, Object-Based Mongoose, Database connection and Driver",
+      "link": "https://codesandbox.io/s/issue-tracker-fcc-hgdgi",
+      "logo":"mongodb"
+    },
+    {
+      "title": "NodeJS",
+      "description": "HTTPS module understanding. With Express framework.",
+      "link": "https://codesandbox.io/s/issue-tracker-fcc-hgdgi",
+      "logo":"nodejs"
+    }, {
+      "title": "Mocha&Chai",
+      "description": "Basic Unit Testing, Functional Testing, Integration Testing",
+      "link": "https://codesandbox.io/s/issue-tracker-fcc-hgdgi?file=/tests/2_functional-tests.js",
+      "logo":"mocha&chai"
+    },
+    {
+      "title": "Authentication",
+      "description": "Basic User Login. OAuth flow, Cookie-Based, JWT",
+      "link": "https://codesandbox.io/s/auth-express-services-e4erk",
+      "logo":"auth"
+    },
+    {
+      "title": "Tooling",
+      "description": "Git Version Control, Github, npm&npm script, Postman, VScode",
+      "link": "",
+      "logo":"tooling"
+    }
+  ]
+}
