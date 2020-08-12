@@ -43,7 +43,6 @@ export default {
 }
 .line {
   stroke-dasharray: 32;
-  opacity: 60%;
   animation: draw 0.8s ease-in-out;
   animation-direction: reverse;
   animation-iteration-count: infinite;
