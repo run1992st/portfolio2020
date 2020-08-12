@@ -69,6 +69,10 @@
           </svg>
           <span class="ml-2">run1992st@gmail.com</span>
         </div>
+        <br />
+        <a href="resume.io/r/Z3eaC88co">
+          <p class="mt-4 underline hover:text-gray-500">VIEW MY CV</p>
+        </a>
       </div>
     </div>
   </div>
