@@ -39,7 +39,7 @@ export default {
     for (let i of wordsArray) {
       await timeWait(waitSeconds);
       if (i === "_") {
-        this.sequence.push(" ");
+        this.sequence.push("-");
       }else{
          this.sequence.push(i);
       }
