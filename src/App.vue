@@ -26,28 +26,28 @@ export default {
   data() {
     return {
       images: [
-        { categoryName: "Adobe_Illustrator", path: "Photos/Drawing-01.jpg" },
-        { categoryName: "Adobe_Illustrator", path: "Photos/Jazz_is_Free.jpg" },
-        { categoryName: "Adobe_Illustrator", path: "Photos/Packaging_label.jpg" },
-        { categoryName: "Adobe_Photoshop", path: "Photos/Fisherfolkinbkk.jpg" },
+        { categoryName: "Adobe Illustrator", path: "Photos/Drawing-01.jpg" },
+        { categoryName: "Adobe Illustrator", path: "Photos/Jazz_is_Free.jpg" },
+        { categoryName: "Adobe Illustrator", path: "Photos/Packaging_label.jpg" },
+        { categoryName: "Adobe Photoshop", path: "Photos/Fisherfolkinbkk.jpg" },
         {
-          categoryName: "Coporate_Identity_Guideline",
+          categoryName: "Coporate Identity_Guideline",
           path: "Photos/Coporate_Guideline.jpg",
         },
         {
-          categoryName: "Interior_Photographing/Lightroom",
+          categoryName: "Interior Photographing/Lightroom",
           path: "Photos/Interior_1.jpg",
         },
         {
-          categoryName: "Interior_Photographing/Lightroom",
+          categoryName: "Interior Photographing/Lightroom",
           path: "Photos/Interior_2.jpg",
         },
         {
-          categoryName: "Interior_Photographing/Lightroom",
+          categoryName: "Interior Photographing/Lightroom",
           path: "Photos/Interior_3.jpg",
         },
         {
-          categoryName: "Interior_Photographing/Lightroom",
+          categoryName: "Interior Photographing/Lightroom",
           path: "Photos/Interior_4.jpg",
         },
       ],

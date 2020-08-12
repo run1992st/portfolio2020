@@ -3,10 +3,9 @@
     <div class="relative w-full mt-2 flex justify-evenly text-gray-800 font-bold overflow-hidden">
       <transition-group name="falling" tag="div" class="flex">
         <div v-for="(letter,index) in sequence" :key="'key'+index+''+letter" class>
-          <div
-            class=" mb-4 w-full leading-none hover:text-gray-100 hollow"
-            :class="addedClass"
-          >{{letter}}</div>
+          <p class="inline-block leading-none hover:text-gray-100 hollow" :class="addedClass">
+            {{letter}}
+          </p>
         </div>
       </transition-group>
     </div>
@@ -25,7 +24,7 @@ export default {
   props: {
     word: String,
     addedClass: String,
-    milliSecPerChar:Number
+    milliSecPerChar: Number,
   },
   data() {
     return {
@@ -35,13 +34,14 @@ export default {
 
   async mounted() {
     let wordsArray = this.word.split("");
-    let waitSeconds = this.milliSecPerChar || 100
+    let waitSeconds = this.milliSecPerChar || 100;
+    console.log(wordsArray);
     for (let i of wordsArray) {
       await timeWait(waitSeconds);
-      if (i === "_") {
-        this.sequence.push("-");
-      }else{
-         this.sequence.push(i);
+      if (i === " ") {
+        this.sequence.push(".");
+      } else {
+        this.sequence.push(i);
       }
     }
   },
